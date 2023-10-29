@@ -1,12 +1,17 @@
 Resultados da pesquisa sequencial para arquivos Desordenados de tamanho 1000:
-Chave (000853) encontrada na árvore. Tempo de busca: 1.920400000e-05 segundos. Interações: 854
-Chave (000474) encontrada na árvore. Tempo de busca: 4.749000000e-06 segundos. Interações: 475
-Chave (000729) encontrada na árvore. Tempo de busca: 3.911000000e-06 segundos. Interações: 730
-Chave (000037) encontrada na árvore. Tempo de busca: 1.886000000e-06 segundos. Interações: 38
-Chave (000798) encontrada na árvore. Tempo de busca: 4.749000000e-06 segundos. Interações: 799
-Chave (000314) encontrada na árvore. Tempo de busca: 2.863000000e-06 segundos. Interações: 315
-Chave (000148) encontrada na árvore. Tempo de busca: 2.444000000e-06 segundos. Interações: 149
-Chave (000164) encontrada na árvore. Tempo de busca: 1.885000000e-06 segundos. Interações: 165
-Chave (000649) encontrada na árvore. Tempo de busca: 4.679000000e-06 segundos. Interações: 650
-Chave (000858) encontrada na árvore. Tempo de busca: 4.889000000e-06 segundos. Interações: 859
-Total de comparações em 10 pesquisas: 5034
+Chave (001073) não encontrada na árvore. Tempo de busca: 3.840000000e-06 segundos. Interações: 1000
+Chave (001461) não encontrada na árvore. Tempo de busca: 4.260000000e-06 segundos. Interações: 1000
+Chave (001110) não encontrada na árvore. Tempo de busca: 4.679000000e-06 segundos. Interações: 1000
+Chave (001695) não encontrada na árvore. Tempo de busca: 5.237000000e-06 segundos. Interações: 1000
+Chave (001939) não encontrada na árvore. Tempo de busca: 4.889000000e-06 segundos. Interações: 1000
+Chave (001133) não encontrada na árvore. Tempo de busca: 5.237000000e-06 segundos. Interações: 1000
+Chave (001127) não encontrada na árvore. Tempo de busca: 4.260000000e-06 segundos. Interações: 1000
+Chave (001609) não encontrada na árvore. Tempo de busca: 5.168000000e-06 segundos. Interações: 1000
+Chave (001613) não encontrada na árvore. Tempo de busca: 4.818000000e-06 segundos. Interações: 1000
+Chave (001206) não encontrada na árvore. Tempo de busca: 4.749000000e-06 segundos. Interações: 1000
+Chave (001698) não encontrada na árvore. Tempo de busca: 4.748000000e-06 segundos. Interações: 1000
+Chave (001530) não encontrada na árvore. Tempo de busca: 4.679000000e-06 segundos. Interações: 1000
+Chave (001674) não encontrada na árvore. Tempo de busca: 4.330000000e-06 segundos. Interações: 1000
+Chave (001657) não encontrada na árvore. Tempo de busca: 5.307000000e-06 segundos. Interações: 1000
+Chave (001589) não encontrada na árvore. Tempo de busca: 4.749000000e-06 segundos. Interações: 1000
+Total de comparações em 15 pesquisas: 15000

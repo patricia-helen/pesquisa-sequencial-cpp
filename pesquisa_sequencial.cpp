@@ -19,11 +19,11 @@ struct Tiporeg {
 Tiporeg gerarRegistroAleatorio(int chave) {
     Tiporeg registro;
     registro.chave = chave;
-    registro.dado1 = rand(); // Gera um valor inteiro aleatório
+    registro.dado1 = rand();
     for (int i = 0; i < 999; ++i) {
-        registro.dado2[i] = 'A' + (rand() % 26); // Gera um caractere aleatório de 'A' a 'Z'
+        registro.dado2[i] = 'A' + (rand() % 26);
     }
-    registro.dado2[999] = '\0'; // Termina a cadeia de caracteres
+    registro.dado2[999] = '\0';
     return registro;
 }
 
@@ -51,7 +51,6 @@ void criarArquivoDadosAleatorios(int tamanho, bool ordenado) {
         }
 
         if (ordenado) {
-            // Ordena os registros com base nas chaves
             for (int i = 0; i < tamanho - 1; ++i) {
                 for (int j = i + 1; j < tamanho; ++j) {
                     if (registros[i].chave > registros[j].chave) {
@@ -75,28 +74,24 @@ void criarArquivoDadosAleatorios(int tamanho, bool ordenado) {
 }
 
 // Função para realizar pesquisa sequencial e salvar resultados em arquivo de saída
-void pesquisaSequencialESaida(int tamanho, const string &tipo) {
+void pesquisaSequencialESaida(int tamanho, const string &tipo, int numBuscas, bool buscaPresente) {
     string nomeArquivoDesordenado = "Arquivos de Entrada/dadosDesordenados" + to_string(tamanho) + ".txt";
-    Tiporeg registros[tamanho];
+    Tiporeg* registros = new Tiporeg[tamanho];
+
     ifstream arquivo(nomeArquivoDesordenado);
 
     if (arquivo.is_open()) {
         for (int j = 0; j < tamanho; ++j) {
             string linha;
             if (getline(arquivo, linha)) {
-                // Converte a linha do arquivo para a estrutura Tiporeg
                 size_t pos = linha.find(";");
                 if (pos != string::npos) {
                     registros[j].chave = stoi(linha.substr(0, pos));
                     registros[j].dado1 = stoi(linha.substr(pos + 1));
-                    // Você pode implementar o processamento de dado2, se necessário
                 }
             }
         }
         arquivo.close();
-
-        // Realize pesquisas sequenciais em chaves aleatórias
-        const int numBuscas = 10; // Altere para o número desejado de pesquisas
 
         string nomeArquivoSaida = "Arquivos Saida/saida" + tipo + to_string(tamanho) + ".txt";
         ofstream saida(nomeArquivoSaida);
@@ -106,7 +101,25 @@ void pesquisaSequencialESaida(int tamanho, const string &tipo) {
             int comparacoesTotal = 0;
 
             for (int j = 0; j < numBuscas; ++j) {
-                int chaveBusca = rand() % tamanho; // Gera uma chave aleatória
+                int chaveBusca;
+                if (j < numBuscas / 2) {
+                    if (buscaPresente) {
+                        // Gera chaves presentes na estrutura de dados
+                        chaveBusca = rand() % tamanho;
+                    } else {
+                        // Gera chaves ausentes na estrutura de dados
+                        chaveBusca = rand() % tamanho + tamanho;
+                    }
+                } else {
+                    if (buscaPresente) {
+                        // Gera chaves presentes na estrutura de dados
+                        chaveBusca = rand() % tamanho;
+                    } else {
+                        // Gera chaves ausentes na estrutura de dados
+                        chaveBusca = rand() % tamanho + tamanho;
+                    }
+                }
+
                 int comparacoes = 0;
 
                 auto start_time = chrono::high_resolution_clock::now();
@@ -122,6 +135,8 @@ void pesquisaSequencialESaida(int tamanho, const string &tipo) {
             saida << "Total de comparações em " << numBuscas << " pesquisas: " << comparacoesTotal << "\n";
             saida.close();
             cout << "Arquivo de saída criado: " << nomeArquivoSaida << endl;
+
+            delete[] registros;
         } else {
             cerr << "Erro ao criar o arquivo de saída." << endl;
         }
@@ -131,31 +146,23 @@ void pesquisaSequencialESaida(int tamanho, const string &tipo) {
 }
 
 int main() {
-    // Crie a pasta "Arquivos de Entrada" se ela não existir
     fs::create_directory("Arquivos de Entrada");
-    // Crie a pasta "Arquivos Saida" se ela não existir
     fs::create_directory("Arquivos Saida");
 
-    // Inicializa o gerador de números aleatórios com uma semente baseada no tempo atual
     srand(static_cast<unsigned>(time(0)));
 
-    const int tamanhos[] = {100, 500, 1000, 10000}; // Tamanhos dos arquivos
+    const int tamanhos[] = {100, 500, 1000, 10000};
     const int numTamanhos = sizeof(tamanhos) / sizeof(tamanhos[0]);
 
-    // Crie arquivos de dados desordenados
-    for (int i = 0; i < numTamanhos; i++) {
-        criarArquivoDadosAleatorios(tamanhos[i], false);
-    }
+    const int numBuscas = 15;
 
-    // Crie arquivos de dados ordenados
+    // Loop para tamanhos de arquivo
     for (int i = 0; i < numTamanhos; i++) {
-        criarArquivoDadosAleatorios(tamanhos[i], true);
-    }
-
-    // Realize pesquisa sequencial e salve os resultados em arquivos de saída
-    for (int i = 0; i < numTamanhos; i++) {
-        pesquisaSequencialESaida(tamanhos[i], "Desordenados");
-        pesquisaSequencialESaida(tamanhos[i], "Ordenados");
+        for (bool ordenado : {false, true}) { // Loop para tipos de arquivo (desordenado e ordenado)
+            criarArquivoDadosAleatorios(tamanhos[i], ordenado);
+            pesquisaSequencialESaida(tamanhos[i], ordenado ? "Ordenados" : "Desordenados", numBuscas, true);
+            pesquisaSequencialESaida(tamanhos[i], ordenado ? "Ordenados" : "Desordenados", numBuscas, false);
+        }
     }
 
     return 0;

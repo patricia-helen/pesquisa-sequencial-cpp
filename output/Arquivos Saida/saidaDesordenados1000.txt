@@ -1,0 +1,17 @@
+Resultados da pesquisa sequencial para arquivos Desordenados de tamanho 1000:
+Chave (000692) encontrada na árvore. Tempo de busca: 9.356000000e-06 segundos. Interações: 693
+Chave (000675) encontrada na árvore. Tempo de busca: 4.328000000e-06 segundos. Interações: 676
+Chave (000151) encontrada na árvore. Tempo de busca: 2.374000000e-06 segundos. Interações: 152
+Chave (000980) encontrada na árvore. Tempo de busca: 6.563000000e-06 segundos. Interações: 981
+Chave (000811) encontrada na árvore. Tempo de busca: 4.747000000e-06 segundos. Interações: 812
+Chave (000720) encontrada na árvore. Tempo de busca: 4.748000000e-06 segundos. Interações: 721
+Chave (000944) encontrada na árvore. Tempo de busca: 4.328000000e-06 segundos. Interações: 945
+Chave (000351) encontrada na árvore. Tempo de busca: 3.770000000e-06 segundos. Interações: 352
+Chave (000147) encontrada na árvore. Tempo de busca: 3.281000000e-06 segundos. Interações: 148
+Chave (000434) encontrada na árvore. Tempo de busca: 3.840000000e-06 segundos. Interações: 435
+Chave (000355) encontrada na árvore. Tempo de busca: 3.421000000e-06 segundos. Interações: 356
+Chave (000821) encontrada na árvore. Tempo de busca: 4.189000000e-06 segundos. Interações: 822
+Chave (000877) encontrada na árvore. Tempo de busca: 5.167000000e-06 segundos. Interações: 878
+Chave (000376) encontrada na árvore. Tempo de busca: 3.840000000e-06 segundos. Interações: 377
+Chave (000812) encontrada na árvore. Tempo de busca: 4.818000000e-06 segundos. Interações: 813
+Total de comparações em 15 pesquisas: 9161

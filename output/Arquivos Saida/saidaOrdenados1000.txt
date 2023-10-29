@@ -1,0 +1,17 @@
+Resultados da pesquisa sequencial para arquivos Ordenados de tamanho 1000:
+Chave (000554) encontrada na árvore. Tempo de busca: 6.283000000e-06 segundos. Interações: 555
+Chave (000863) encontrada na árvore. Tempo de busca: 4.189000000e-06 segundos. Interações: 864
+Chave (000948) encontrada na árvore. Tempo de busca: 4.748000000e-06 segundos. Interações: 949
+Chave (000168) encontrada na árvore. Tempo de busca: 3.910000000e-06 segundos. Interações: 169
+Chave (000882) encontrada na árvore. Tempo de busca: 4.678000000e-06 segundos. Interações: 883
+Chave (000502) encontrada na árvore. Tempo de busca: 3.840000000e-06 segundos. Interações: 503
+Chave (000759) encontrada na árvore. Tempo de busca: 3.770000000e-06 segundos. Interações: 760
+Chave (000648) encontrada na árvore. Tempo de busca: 4.817000000e-06 segundos. Interações: 649
+Chave (000234) encontrada na árvore. Tempo de busca: 3.770000000e-06 segundos. Interações: 235
+Chave (000278) encontrada na árvore. Tempo de busca: 3.770000000e-06 segundos. Interações: 279
+Chave (000670) encontrada na árvore. Tempo de busca: 4.329000000e-06 segundos. Interações: 671
+Chave (000792) encontrada na árvore. Tempo de busca: 4.887000000e-06 segundos. Interações: 793
+Chave (000464) encontrada na árvore. Tempo de busca: 3.840000000e-06 segundos. Interações: 465
+Chave (000561) encontrada na árvore. Tempo de busca: 3.701000000e-06 segundos. Interações: 562
+Chave (000251) encontrada na árvore. Tempo de busca: 2.862000000e-06 segundos. Interações: 252
+Total de comparações em 15 pesquisas: 8589
