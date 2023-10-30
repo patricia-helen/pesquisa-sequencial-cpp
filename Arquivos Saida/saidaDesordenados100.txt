@@ -1,17 +1,17 @@
 Resultados da pesquisa sequencial para arquivos Desordenados de tamanho 100:
-Chave (000191) não encontrada na árvore. Tempo de busca: 9.770000000e-07 segundos. Interações: 100
-Chave (000190) não encontrada na árvore. Tempo de busca: 2.305000000e-06 segundos. Interações: 100
-Chave (000172) não encontrada na árvore. Tempo de busca: 2.374000000e-06 segundos. Interações: 100
-Chave (000181) não encontrada na árvore. Tempo de busca: 1.956000000e-06 segundos. Interações: 100
-Chave (000189) não encontrada na árvore. Tempo de busca: 1.885000000e-06 segundos. Interações: 100
-Chave (000128) não encontrada na árvore. Tempo de busca: 1.815000000e-06 segundos. Interações: 100
-Chave (000170) não encontrada na árvore. Tempo de busca: 1.885000000e-06 segundos. Interações: 100
-Chave (000145) não encontrada na árvore. Tempo de busca: 1.955000000e-06 segundos. Interações: 100
-Chave (000175) não encontrada na árvore. Tempo de busca: 1.467000000e-06 segundos. Interações: 100
-Chave (000185) não encontrada na árvore. Tempo de busca: 1.816000000e-06 segundos. Interações: 100
-Chave (000192) não encontrada na árvore. Tempo de busca: 2.374000000e-06 segundos. Interações: 100
-Chave (000191) não encontrada na árvore. Tempo de busca: 1.885000000e-06 segundos. Interações: 100
-Chave (000138) não encontrada na árvore. Tempo de busca: 1.955000000e-06 segundos. Interações: 100
-Chave (000162) não encontrada na árvore. Tempo de busca: 1.886000000e-06 segundos. Interações: 100
-Chave (000179) não encontrada na árvore. Tempo de busca: 1.885000000e-06 segundos. Interações: 100
+Chave (000171) não encontrada na árvore. Tempo de busca: 6.146000000e-06 segundos. Interações: 100
+Chave (000191) não encontrada na árvore. Tempo de busca: 4.679000000e-06 segundos. Interações: 100
+Chave (000164) não encontrada na árvore. Tempo de busca: 4.749000000e-06 segundos. Interações: 100
+Chave (000119) não encontrada na árvore. Tempo de busca: 4.750000000e-06 segundos. Interações: 100
+Chave (000161) não encontrada na árvore. Tempo de busca: 4.610000000e-06 segundos. Interações: 100
+Chave (000136) não encontrada na árvore. Tempo de busca: 4.749000000e-06 segundos. Interações: 100
+Chave (000193) não encontrada na árvore. Tempo de busca: 4.820000000e-06 segundos. Interações: 100
+Chave (000164) não encontrada na árvore. Tempo de busca: 4.749000000e-06 segundos. Interações: 100
+Chave (000108) não encontrada na árvore. Tempo de busca: 4.331000000e-06 segundos. Interações: 100
+Chave (000169) não encontrada na árvore. Tempo de busca: 6.146000000e-06 segundos. Interações: 100
+Chave (000130) não encontrada na árvore. Tempo de busca: 4.680000000e-06 segundos. Interações: 100
+Chave (000178) não encontrada na árvore. Tempo de busca: 4.819000000e-06 segundos. Interações: 100
+Chave (000151) não encontrada na árvore. Tempo de busca: 4.749000000e-06 segundos. Interações: 100
+Chave (000150) não encontrada na árvore. Tempo de busca: 4.260000000e-06 segundos. Interações: 100
+Chave (000105) não encontrada na árvore. Tempo de busca: 4.819000000e-06 segundos. Interações: 100
 Total de comparações em 15 pesquisas: 1500

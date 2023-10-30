@@ -1,17 +1,17 @@
 Resultados da pesquisa sequencial para arquivos Ordenados de tamanho 10000:
-Chave (017502) não encontrada na árvore. Tempo de busca: 1.232510000e-04 segundos. Interações: 10000
-Chave (014937) não encontrada na árvore. Tempo de busca: 3.721900000e-05 segundos. Interações: 10000
-Chave (014927) não encontrada na árvore. Tempo de busca: 3.149300000e-05 segundos. Interações: 10000
-Chave (011837) não encontrada na árvore. Tempo de busca: 3.247100000e-05 segundos. Interações: 10000
-Chave (016727) não encontrada na árvore. Tempo de busca: 3.714900000e-05 segundos. Interações: 10000
-Chave (010983) não encontrada na árvore. Tempo de busca: 3.666100000e-05 segundos. Interações: 10000
-Chave (019854) não encontrada na árvore. Tempo de busca: 3.673100000e-05 segundos. Interações: 10000
-Chave (013522) não encontrada na árvore. Tempo de busca: 3.715000000e-05 segundos. Interações: 10000
-Chave (017105) não encontrada na árvore. Tempo de busca: 3.673000000e-05 segundos. Interações: 10000
-Chave (014795) não encontrada na árvore. Tempo de busca: 3.673100000e-05 segundos. Interações: 10000
-Chave (015914) não encontrada na árvore. Tempo de busca: 3.722000000e-05 segundos. Interações: 10000
-Chave (015094) não encontrada na árvore. Tempo de busca: 3.659100000e-05 segundos. Interações: 10000
-Chave (014359) não encontrada na árvore. Tempo de busca: 3.687100000e-05 segundos. Interações: 10000
-Chave (013173) não encontrada na árvore. Tempo de busca: 3.680000000e-05 segundos. Interações: 10000
-Chave (019044) não encontrada na árvore. Tempo de busca: 3.666100000e-05 segundos. Interações: 10000
+Chave (019993) não encontrada na árvore. Tempo de busca: 1.635060000e-04 segundos. Interações: 10000
+Chave (011399) não encontrada na árvore. Tempo de busca: 6.439700000e-05 segundos. Interações: 10000
+Chave (010668) não encontrada na árvore. Tempo de busca: 6.153300000e-05 segundos. Interações: 10000
+Chave (015888) não encontrada na árvore. Tempo de busca: 5.336100000e-05 segundos. Interações: 10000
+Chave (010892) não encontrada na árvore. Tempo de busca: 5.126600000e-05 segundos. Interações: 10000
+Chave (010468) não encontrada na árvore. Tempo de busca: 6.453600000e-05 segundos. Interações: 10000
+Chave (019031) não encontrada na árvore. Tempo de busca: 5.203400000e-05 segundos. Interações: 10000
+Chave (013009) não encontrada na árvore. Tempo de busca: 5.531700000e-05 segundos. Interações: 10000
+Chave (011563) não encontrada na árvore. Tempo de busca: 8.192700000e-05 segundos. Interações: 10000
+Chave (018420) não encontrada na árvore. Tempo de busca: 6.369800000e-05 segundos. Interações: 10000
+Chave (016577) não encontrada na árvore. Tempo de busca: 5.964700000e-05 segundos. Interações: 10000
+Chave (018227) não encontrada na árvore. Tempo de busca: 5.203400000e-05 segundos. Interações: 10000
+Chave (019943) não encontrada na árvore. Tempo de busca: 5.217400000e-05 segundos. Interações: 10000
+Chave (015888) não encontrada na árvore. Tempo de busca: 5.552700000e-05 segundos. Interações: 10000
+Chave (018736) não encontrada na árvore. Tempo de busca: 5.399000000e-05 segundos. Interações: 10000
 Total de comparações em 15 pesquisas: 150000
